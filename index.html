@@ -1,0 +1,714 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Vedant site</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap Link -->
+
+
+  <!-- Font Awesome Cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- Font Awesome Cdn -->
+
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+</head>
+
+<body>
+
+
+
+
+
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" id="logo"><img src="./images/logo.svg"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#clients">Placements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#review">Review</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#form">Contact Us</a>
+          </li>
+
+
+        </ul>
+        
+          
+<!-- Button to Open Modal -->
+<a href="#registerModal" class="btn"><i class="fa fa-user"></i><span>Register</span></a>
+
+<!-- Modal Structure -->
+<div class="overlay" id="registerModal">
+    <div class="modal-content">
+        <a href="#" class="close">&times;</a>
+        <h2 class="text-center">Sign Up and Apply For Free</h2>
+        <form>
+            <label for="firstName">First Name</label>
+            <input id="firstName" type="text" placeholder="Your first name..." required>
+            
+            <label for="lastName">Last Name</label>
+            <input id="lastName" type="text" placeholder="Your last name..." required>
+            
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Your email..." required>
+            
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="tel" placeholder="Your phone number..." required>
+            
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Your password..." required>
+            
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</div>
+      
+          
+      
+          
+          <!-- Button to Open Modal -->
+          <a href="#loginmodal" class="btn"><i class="fa fa-sign-in-alt"></i><span>Login</span></a>
+          <div class="overlay-modal" id="loginmodal">
+            <div class="modal-content">
+              <a href="#" class="close">&times;</a>
+              <h2 class="text-center"> Login</h2>
+              <form>
+                
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="your email..." required>
+
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="your password..." required>
+
+                <input type="submit" value="Login">
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+
+
+
+
+  <!-- Home Section Start -->
+  <div class="home">
+    <div class="content">
+      <h5>Welcome To </h5>
+      <h1>India’s Leading and Trusted</h1>
+      <h1><span class="changecontent"></span></h1>
+      <h1>Offering Classroom & Online Training</h1>
+
+      <a href="#registerModal" class="download-link">
+        <i class="fa fa-download"></i> Download Brochure
+      </a>
+    </div>
+  </div>
+  <!-- Home Section End -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Section Packages Start -->
+  <section class="packages py-5 " id="courses">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1><span>Our</span> Courses</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-sm-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="./images/master-in-full-stack.webp" alt="">
+            <div class="card-body">
+              <p>#RightChoice</p>
+              <h3>Python Full Stack Development</h3>
+              <div class="mains d-flex justify-content-between">
+                <div class="left">
+                  <b>Duration:</b>
+                  <div class="imp">
+                    <i class="fa fa-clock"></i>
+                    <span>Job Ready in 6 Month</span>
+                  </div>
+                </div>
+                <div class="right">
+                  <b>Case Studies:</b>
+                  <div class="imp">
+                    <i class="fa fa-book"></i>
+                    <span>15</span>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <a href="#form">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm-4 py-3 py-md-0">
+
+
+          <div class="card">
+            <img src="./images/master-software-data-engineering.webp" alt="">
+            <div class="card-body">
+              <p>#Trending</p>
+              <h3>Java Full Stack Development</h3>
+              <div class="mains d-flex justify-content-between">
+                <div class="left">
+                  <b>Duration:</b>
+                  <div class="imp">
+                    <i class="fa fa-clock"></i>
+                    <span>Job Ready in 6 Month</span>
+                  </div>
+                </div>
+                <div class="right">
+                  <b>Case Studies:</b>
+                  <div class="imp">
+                    <i class="fa fa-book"></i>
+                    <span>15</span>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <a href="#form">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="./images/Masters-in-data-science.webp" alt="">
+            <div class="card-body">
+              <p>#CareerMaker</p>
+              <h3>Data Science &amp; Analytics with AI</h3>
+              <div class="mains d-flex justify-content-between">
+                <div class="left">
+                  <b>Duration:</b>
+                  <div class="imp">
+                    <i class="fa fa-clock"></i>
+                    <span>Job Ready in 6 Month</span>
+                  </div>
+                </div>
+                <div class="right">
+                  <b>Case Studies:</b>
+                  <div class="imp">
+                    <i class="fa fa-book"></i>
+                    <span>15</span>
+                  </div>
+                </div>
+              </div>
+
+              <a href="#form">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Section Packages End -->
+
+
+
+
+
+
+
+
+
+  <!-- About Start -->
+  <section class="about  pdb-40" id="about">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1>About <span>Us</span></h1>
+        <p>We focus on providing technical knowledge along with building a profile of each and every student <br>with
+          White Glove service and support because the end goal of our team is to make the students job-ready.</p>
+      </div>
+
+      <div class="row" style="margin-top: 50px;">
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/master-software-data-engineering.webp" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-6 py-3 py-md-0">
+          <h2>2000+ Organizations TRUST US WITH THEIR Openings</h2>
+          <p>Organizations across the globe trust our students and their brilliant technical skills in Full Stack
+            Development, Data Science & Analytics with AI, AWS Cloud Technology . which results in them getting hired at
+            excellent companies with impressive pay scales. Itvedant India’s fatest-growing Software Training Institute,
+            provide a range of IT Courses helping to shape the future of our students in every way possible. The Coding
+            Courses provided by our Institute are highly valuable and worthy for the students.</p>
+          <button id="about-btn"><a href="#form">Read More...</a></button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- About End -->
+   
+  <!--Our placed student-->
+<section class="container mt-5 py-5">
+  <div >
+    <div class="main-txt mb-5">
+      <h1>Our Placed <span>Student</span></h1>
+    </div>
+    <div id="placementCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+    
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4 " >
+              <div class="testimonial-card">
+                <img src="https://www.itvedant.com/images/placement/student/data-analytics/ritesh-parulekar.webp" alt="Ritesh Parulekar placed student" class="student-photo">
+                <h3>Ritesh Parulekar</h3>
+                <p>Data Analyst</p>
+                <hr>
+                <img src="https://www.itvedant.com/images/placement/student/company/gebbs.webp" alt="Gebbs Health Care" class="company-logo">
+                <p>Gebbs Health Care</p>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="testimonial-card">
+                <img src="https://www.itvedant.com/images/placement/student/data-analytics/prahalad-bhosale.webp" alt="Prahalad Bhosale placed student" class="student-photo">
+                <h3>Prahalad Bhosale</h3>
+                <p>Data Analyst</p>
+                <hr>
+                <img src="https://www.itvedant.com/images/placement/student/company/aroha-technologies.webp" alt="Aroha Technologies" class="company-logo">
+                <p>Aroha Technologies</p>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="testimonial-card">
+                <img src="https://www.itvedant.com/images/placement/student/data-analytics/akhil-dixit.webp" alt="Akhil Dixit placed student" class="student-photo">
+                <h3>Akhil Dixit</h3>
+                <p>Data Analyst</p>
+                <hr>
+                <img src="https://www.itvedant.com/images/placement/student/company/mirium.webp" alt="Mirum India" class="company-logo">
+                <p>Mirum India</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4 ">
+              <div class="testimonial-card">
+                <img src="https://www.itvedant.com/images/placement/student/data-analytics/gautamkumar-mishra.webp" alt="Gautamkumar Mishra placed student" class="student-photo">
+                <h3>Gautamkumar Mishra</h3>
+                <p>Data Analyst</p>
+                <hr>
+                <img src="https://www.itvedant.com/images/placement/student/company/cloudstrats.webp" alt="Cloudstrats" class="company-logo">
+                <p>Cloudstrats</p>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="testimonial-card">
+                <img src="https://www.itvedant.com/images/placement/student/data-analytics/mohammed-patel.webp" alt="Mohammed Patel placed student" class="student-photo">
+                <h3>Mohammed Patel</h3>
+                <p>Data Analyst</p>
+                <hr>
+                <img src="https://www.itvedant.com/images/placement/student/company/medianet.webp" alt="Media.net" class="company-logo">
+                <p>Media.net</p>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="testimonial-card">
+                <img src="https://www.itvedant.com/images/placement/student/data-analytics/rajas.webp" alt="Rajas Chidrawar placed student" class="student-photo">
+                <h3>Rajas Chidrawar</h3>
+                <p>Data Analyst</p>
+                <hr>
+                <img src="https://www.itvedant.com/images/placement/student/company/diacto.webp" alt="Diacto Technologies" class="company-logo">
+                <p>Diacto Technologies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#placementCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#placementCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+</section>
+
+  <!-- Call to Action Start-->
+  <section class="call-to-action py-5">
+    <div class="call-to-action-inner">
+      <div class="call-to-action-left">
+      
+        <div class="call-to-action-content">
+          <h2>Join Us Today!</h2>
+          <h1 class="text-white" style=" font-size:40px;font-weight:  900px;">We are ready to help you
+          </h1>
+        </div>
+      </div>
+      <div class="call-to-action-right">
+        <a href="#number" class="call-to-action-button">Contact Us</a>
+      </div>
+    </div>
+  </section>
+  
+<!-- Call to Action End-->
+
+
+
+  <!--Review Section Start-->
+  <section>
+    <div   class="container mb-5"id="review">
+      <div class="main-txt">
+        <h1>Student <span>Review</span></h1>
+
+      </div>
+
+      <div id="testimonialCarousel" class="carousel slide testimonial-carousel" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4 ">
+                <div class="testimonial-card">
+                  <img src="https://www.itvedant.com/images/student-reviews/index/aryan-raj.webp" alt="Aryan Raj">
+                  <h4>Aryan Raj</h4>
+                  <p>Hi, I'm Aryan Raj and I recommend ITVEDANT Bangalore for those interested in Full Stack Developer,
+                    AWS, Python Developer, and Data Scientists. Good place for learning and upgrading skills...</p>
+                </div>
+              </div>
+              <div class="col-md-4 ">
+                <div class="testimonial-card">
+                  <img src="https://www.itvedant.com/images/student-reviews/index/sayli-bhangare.webp"
+                    alt="Sayli Bhangare">
+                  <h4>Sayli Bhangare</h4>
+                  <p>Being an e-learning platform, Itvedant offers the flexibility I need to balance my studies with
+                    other commitments. The user-friendly interface makes navigation smooth...</p>
+                </div>
+              </div>
+              <div class="col-md-4 ">
+                <div class="testimonial-card">
+                  <img src="https://www.itvedant.com/images/student-reviews/index/yuvraj-srivastava.webp"
+                    alt="Yuvraj Srivastava">
+                  <h4>Yuvraj Srivastava</h4>
+                  <p>I am thrilled to share my experience. The curriculum was comprehensive, well-structured, and
+                    aligned with industry standards. Each module developed deep into the subject matter...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="testimonial-card">
+                  <img src="https://www.itvedant.com/images/student-reviews/index/jugal-patil.webp" alt="Jugal Patil">
+                  <h4>Jugal Patil</h4>
+                  <p>Itvedant has been a fantastic experience so far! The instructors are knowledgeable and supportive,
+                    creating a conducive learning environment...</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-card">
+                  <img src="https://www.itvedant.com/images/student-reviews/index/prathamesh-kakade.webp"
+                    alt="Prathamesh Kakade">
+                  <h4>Prathamesh Kakade</h4>
+                  <p>Itvedant Institute is fantastic! Their courses are easy to understand, and the teachers are
+                    super helpful.  I learned a lot about programming and Database management system...</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonial-card">
+                  <img src="https://www.itvedant.com/images/student-reviews/index/nikhil-khairnar.webp"
+                    alt="Nikhil Khairnar">
+                  <h4>Nikhil Khairnar</h4>
+                  <p>I.T. Vedant is an absolute gem in the world of technology and innovation! Their expertise and
+                    passion for all things IT shine through in every interaction...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more carousel-item divs as needed -->
+        </div>
+        <a class="custom-carousel-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+          <span class="custom-carousel-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous Review</span>
+        </a>
+        <a class="custom-carousel-next" href="#testimonialCarousel" role="button" data-slide="next">
+          <span class="custom-carousel-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next Review</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+  <!--Review Section Start-->
+
+  
+
+
+
+  
+
+
+
+
+  <!-- Section Book Start -->
+  <section class="book" id="form">
+    <div class="background-overlay  py-1">
+      <div class="container">
+        <div class="main-text">
+          <h1>Let's connect. We are just a click away!</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6 py-3 py-md-3">
+            <div class="map">
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.481626809297!2d-122.40862668468192!3d37.78355267975931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808f9f877017%3A0xf71d73318b59e1af!2s1600%20Palo%20Alto%20Ave%2C%20Palo%20Alto%2C%20CA%2094301!5e0!3m2!1sen!2sus!4v1617899721742!5m2!1sen!2sus"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="col-md-6 py-3 py-md-3">
+
+            <form action="#" method="post">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Student Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" placeholder="Phone Number" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Course Name" required>
+              </div>
+
+
+              <div class="form-group">
+                <textarea class="form-control" rows="5" name="details"
+                  placeholder="Enter Additional Details (if any)"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Register" class="submit" required>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Book End -->
+
+
+  <!--Client section Start-->
+  <section class="client-section pdt-30 pdb-40" id="clients">
+    <div class="container">
+
+      <div id="clientCarousel" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- First Slide -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-2"><img src="images/companies/accenture.webp" class="d-block w-100" alt="Client 1"></div>
+              <div class="col-2"><img src="images/companies/bse.webp" class="d-block w-100" alt="Client 2"></div>
+              <div class="col-2"><img src="images/companies/eclerx.webp" class="d-block w-100" alt="Client 3"></div>
+              <div class="col-2"><img src="images/companies/gebbs.webp" class="d-block w-100" alt="Client 4"></div>
+              <div class="col-2"><img src="images/companies/genpact.webp" class="d-block w-100" alt="Client 5"></div>
+            </div>
+          </div>
+          <!-- Second Slide -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-2"><img src="images/companies/godrej.webp" class="d-block w-100" alt="Client 6"></div>
+              <div class="col-2"><img src="images/companies/hcl.webp" class="d-block w-100" alt="Client 7"></div>
+              <div class="col-2"><img src="images/companies/icici.webp" class="d-block w-100" alt="Client 8"></div>
+              <div class="col-2"><img src="images/companies/idfc.webp" class="d-block w-100" alt="Client 1"></div>
+              <div class="col-2"><img src="images/companies/infosys.webp" class="d-block w-100" alt="Client 2"></div>
+            </div>
+          </div>
+      
+        </div>
+        <a class="carousel-control-prev" href="#clientCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#clientCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--Client section End-->
+
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="overlay-footer">
+      <div class="container">
+        <div class="row">
+          <!-- Address Section -->
+          <div class="col-lg-3 col-md-6 footer-section">
+            <h2 class="text-uppercase">I.T. Vedant</h2>
+            <p>ADDRESS: Itvedant Education Thane</p>
+            <p>2nd Floor, Ishaan Arcade-1, Opposite Gaondevi Mandir, Above Canara Bank, Gokhale Road, Thane (West)</p>
+            <p>Pan India Branches</p>
+            <p><strong>Email:</strong> <a href="mailto:mail@itvedant.com" class="text-white">mail@itvedant.com</a></p>
+            <p id="number"><strong>Course Contact Number:</strong> <a href="tel:9205004404" class="text-white">9205004404</a></p>
+            <div class="social-icons">
+              <a href="#" class="me-3 text-white"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="me-3 text-white"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="me-3 text-white"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+            </div>
+
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-3 col-md-6 footer-section ">
+            <h3 class="text-uppercase">Menu</h3>
+            <ul class="list-unstyled">
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Placements</a></li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Careers</a></li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Reserve My Seat</a></li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Pay Fees</a></li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Refer & Earn</a></li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">News & Events</a></li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Success Stories</a></li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Corporate Training</a></li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Blogs</a></li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Courses -->
+          <div class="col-lg-3 col-md-6 footer-section ">
+            <h3 class="text-uppercase">Our Courses</h3>
+            <ul class="list-unstyled">
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Python Full Stack Development</a>
+              </li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Java Full Stack Development</a>
+              </li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Data Science & Analytics with
+                  AI</a></li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">AWS Cloud Technology</a></li>
+              <li><i class="fa fa-arrow-right me-2"></i><a href="#" class="text-white">Digital Marketing With AI</a>
+              </li>
+
+
+              
+            </ul>
+          </div>
+
+          <!-- Inquiry Section -->
+          <div class="col-lg-3 col-md-6 footer-section bg-dark py-3">
+            <h3 class="text-uppercase">India's Leading and Trusted Career Transforming Institute</h3>
+            <p>Raise the bar of your career with certification from one of the prestigious organizations.</p>
+            <button class="btn btn-success"><a href="#mobile">Inquire Now</a></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom text-center mt-4 pt-4 border-top border-secondary">
+        <p>&copy; Itvedant Education Pvt. Ltd. 2012-2024 | <a href="#" class="text-success">Terms</a> | <a href="#"
+            class="text-success">Placement</a> | <a href="#" class="text-success">Privacy</a> | <a href="#"
+            class="text-success">Refund</a> | <a href="#" class="text-success">Referral Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!--Footer section End-->
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Bootstrap JS and dependencies (Popper.js and jQuery) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            margin: 0;
+            padding-top: 100px;
+            background-color: #f0f0f0;
+        }
+        
+        p {
+            font-size: 20px;
+        }
+        
+        h1 {
+            font-size: 40px;
+            color: #333;
+        }
+        
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: 1px solid rgb(191, 191, 249);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            width: 350px;
+            background-color: #fff;
+        }
+        
+        td {
+            padding: 10px;
+            border: 1px solid lavender; 
+            text-align: start;
+            text-align: start;
+            color: #333; 
+        }
+
+        label, input {
+            display: block;
+            margin: 0;
+            padding: 10px;
+        }
+        
+        .required::after {
+            content: " *";
+            color: red;
+        }
+
+        .button-with-logo {
+            display: inline-flex;
+            background-color: white;
+            border: 2px solid rgb(195, 195, 195);
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            align-items: center;
+        }
+        
+        .button-with-logo img {
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        input[type="email"], input[type="password"] {
+            width: calc(100% - 20px);
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            width: calc(100% - 20px);
+            background-color: rgb(59, 59, 255);
+            padding: 15px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgb(45, 45, 195);
+        }
+
+        a {
+            color: rgb(59, 59, 255);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .tabs td {
+            font-size: 18px;
+            text-decoration: underline;
+            color: blue;
+            text-align: center;
+            cursor: pointer;
+            padding-bottom: 20px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="../Table/table using salaryslip.html">
+        <table>
+            <tr >
+                <td>Student</td>
+                <td>Employer / T&P</td>
+            </tr>
+            <tr>
+               <td colspan="2" style="text-align: center;">
+                <button class="button-with-logo">
+                    <img src="g logo.png" alt="Google Logo"> 
+                    Sign Up with Google
+                </button>
+               </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label class="required">Email</label>
+                    <input type="email" placeholder="abc@gmail.com" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label class="required">Password</label>
+                    <input type="password" placeholder="Must be at least 6 characters" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: end;">
+                    <a href="forgotpassword.html">Forget Password?</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Sign In">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    New to Internshala? <a href="register.html">Sign Up</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
